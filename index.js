@@ -45,6 +45,7 @@ function currentLine(line){
   }
 
   line.forEach(lineReturn)
+
   return 'The line is currently: ' + lineString ;
 }
 
