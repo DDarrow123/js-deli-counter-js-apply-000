@@ -19,6 +19,7 @@ function nowServing(deliLine){
 
     var first = deliLine.shift();
     return `Currently serving ${first}.`
+
   }
 
 }
@@ -35,7 +36,7 @@ function currentLine(line){
   function lineReturn(element, index){
     lineString += `${index + 1}. ${element}`;
     if (index + 1 < line.length ){
-   lineString += ', ';
+       lineString += ', ';
 
     }
   }
